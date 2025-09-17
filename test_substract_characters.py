@@ -13,7 +13,7 @@ def string_similarity(s1, s2):
     similarity_ratio = difflib.SequenceMatcher(None, s1, s2).ratio()
     return similarity_ratio
 
-def test_diff_chars(capsys):
+def subtract_chars(char1, char2):
     # Test the add_chars function
     char1 = 'b'
     char2 = 'a'
